@@ -154,6 +154,7 @@
     <ClCompile Include="D:\DYECourse\TY\Lumina_LearnOpenGL\Lumina\imgui\imgui_widgets.cpp" />
     <ClCompile Include="E:\opengl\glad.c" />
     <ClCompile Include="ExtraTest\Model.cpp" />
+    <ClCompile Include="HelloAdvancedGLSL.cpp" />
     <ClCompile Include="HelloBasicLighting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -211,7 +212,9 @@
     <ClCompile Include="HelloSkybox.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="HelloSkybox2.cpp" />
+    <ClCompile Include="HelloSkybox2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="HelloStencil.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
