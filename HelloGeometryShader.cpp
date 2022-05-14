@@ -86,9 +86,9 @@ int main()
     //Model ourModel("./Model/nanosuit/nanosuit.obj");
     ////Model ourModel("./Model/ModelUsedforGraphics/ModelforGraphics.fbx");
     ////Model ourModel("./Model/Haku/TDA Lacy Haku.pmx");
-    Shader shaderRed("./Shaders/9.7.shader.vs", "./Shaders/9.7.1.shader.fs");
-    Shader shaderGreen("./Shaders/9.7.shader.vs", "./Shaders/9.7.2.shader.fs");
-    Shader shaderBlue("./Shaders/9.7.shader.vs", "./Shaders/9.7.3.shader.fs");
+    Shader shaderRed(   "./Shaders/9.7.shader.vs", "./Shaders/9.7.1.shader.fs");
+    Shader shaderGreen( "./Shaders/9.7.shader.vs", "./Shaders/9.7.2.shader.fs");
+    Shader shaderBlue(  "./Shaders/9.7.shader.vs", "./Shaders/9.7.3.shader.fs");
     Shader shaderYellow("./Shaders/9.7.shader.vs", "./Shaders/9.7.4.shader.fs");
 
 
