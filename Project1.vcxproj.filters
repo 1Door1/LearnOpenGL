@@ -150,6 +150,9 @@
     <ClCompile Include="HelloSkybox2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HelloGeometryShader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="HelloAdvancedGLSL.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
