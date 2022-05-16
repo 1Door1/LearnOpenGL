@@ -114,6 +114,11 @@ int main()
     // -----------
     while (!glfwWindowShouldClose(window))
     {
+        float currentFrame = static_cast<float>(glfwGetTime());
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
+
+        processInput(window);//I forget to process input window to control the window with keyboard
         // render
         // ------
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
