@@ -138,6 +138,13 @@ int main()
         ourShader.setMat4("model", model);
         ourModel.Draw(ourShader);
 
+        normalShader.use();
+        normalShader.setMat4("projection", projection);
+        normalShader.setMat4("view", view);
+        normalShader.setMat4("model", model);
+
+        ourModel.Draw(normalShader);
+
 
 
 
