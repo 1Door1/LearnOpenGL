@@ -154,7 +154,9 @@
     <ClCompile Include="D:\DYECourse\TY\Lumina_LearnOpenGL\Lumina\imgui\imgui_widgets.cpp" />
     <ClCompile Include="E:\opengl\glad.c" />
     <ClCompile Include="ExtraTest\Model.cpp" />
-    <ClCompile Include="HelloExplode.cpp" />
+    <ClCompile Include="HelloExplode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="HelloGeometryShader.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -209,6 +211,7 @@
     <ClCompile Include="HelloMultipleLights.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="HelloNormalVisualization.cpp" />
     <ClCompile Include="HelloOurColor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
