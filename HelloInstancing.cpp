@@ -282,14 +282,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 // }
 
 
-
-
-
-
-
-
-
-
+void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
@@ -333,7 +326,7 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("./Shaders/9.9.1.shadervs", "./Shaders/9.9.1.shader.fs");
+    Shader shader("./Shaders/9.9.1.instancing.vs", "./Shaders/9.9.1.instancing.fs");
 
     // generate a list of 100 quad locations/translation-vectors
     // ---------------------------------------------------------
@@ -427,3 +420,12 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
     // height will be significantly larger than specified on retina displays.
     glViewport(0, 0, width, height);
 }
+
+
+
+
+
+
+
+
+
