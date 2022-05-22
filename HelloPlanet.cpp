@@ -82,8 +82,8 @@ int main()
     // -------------------------
     Shader ourShader("./Shaders/9.1.shader.vs", 
                      "./Shaders/9.1.shader.fs");
-    Shader asteroidShader("./Shaders/9.1.2.shader.vs",
-                          "./Shaders/9.1.2.shader.fs");
+    Shader asteroidShader("./Shaders/9.9.2.shader.vs",
+                          "./Shaders/9.9.2.shader.fs");
 
     // load models
     // -----------
