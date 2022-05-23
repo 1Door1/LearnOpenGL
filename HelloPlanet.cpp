@@ -90,7 +90,8 @@ int main()
     //Model ourModel("./Model/nanosuit/nanosuit.obj");
     //Model ourModel("./Model/ModelUsedforGraphics/ModelforGraphics.fbx");
     //Model ourModel("./Model/Haku/TDA Lacy Haku.pmx");
-    Model planet("./Model/planet/planet.obj");
+    //Model planet("./Model/planet/planet.obj");
+    Model planet("./Model/Haku/TDA Lacy Haku.pmx");
     Model rock("./Model/rock/rock.obj");
 
     //a large list of semi-radom model transformation matrices
@@ -108,7 +109,8 @@ int main()
         float displacement = (rand() % (int)(2 * offset * 100)) / 100.0f - offset;
         float x = sin(angle) * radius + displacement;
         displacement = (rand() % (int)(2 * offset * 100)) / 100.0f - offset;
-        float y = displacement * 0.4f; // keep height of asteroid field smaller compared to width of x and z
+        float y = displacement * 0.4f + cos(angle)*radius;//try to zhenhuo
+        //float y = displacement * 0.4f; // keep height of asteroid field smaller compared to width of x and z
         displacement = (rand() % (int)(2 * offset * 100)) / 100.0f - offset;
         float z = cos(angle) * radius + displacement;
         model = glm::translate(model, glm::vec3(x, y, z));
